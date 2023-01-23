@@ -120,3 +120,48 @@ footer{
 hr{
     width: 70%;
 }
+/*Estilos del Modal*/
+.modal{
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 25%;
+    right: 25%;
+    background-image: url("imagenes/imagenModal2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 15px;
+    opacity: 0;
+    pointer-events: none;
+    overflow-y: scroll;
+    font-family: 'Gaegu', cursive;
+}
+.contenedor_modal{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    text-align: center;
+}
+.contenedor_modal img{
+    border:5px solid #e5989b;
+}
+.cerrar_modal{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    background-color: #e5989b;
+    border-radius: 5px;
+}
+.cerrar_modal i{
+    font-size: larger;
+    color: #94d2bd;
+}
+.mostrar--modal{
+    opacity: 1;
+    pointer-events: unset;
+}
+.texto_modal{
+    font-size: larger;
+}
