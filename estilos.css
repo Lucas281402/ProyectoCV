@@ -1,0 +1,69 @@
+/*Estilo del Body*/
+body{
+    background-image: url("imagenes/imagen5.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    max-width: 90%;
+    font-family: 'Klee One', cursive;
+    
+}
+/*Estilos del Header*/
+.contenedor{
+    display: flex;
+    float: left;
+    width: 100%;
+}
+.foto_perfil{
+    border-radius: 100px;
+    display: flex;
+    float: left;
+    top: 25px;
+    max-width: 1000px;
+    min-width: 100px;
+    border: 5px solid #118ab2;
+}
+/*Estilos de Nav Bar o Menú*/
+#mostrar{
+    display: none;
+}
+.nav_bar{
+    display: flex;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #b8d0eb;
+    color: #1b4965;
+}
+.nav_bar:hover{
+    background-color: #036666;
+}
+.nav_bar a:link{
+    color: #1b4965;
+}
+.boton_menu{
+    background-color: #b8d0eb;
+    border-radius: 5px;
+    border: #b8d0eb;
+}
+.boton_menu i {
+    font-size: small;
+}
+.boton_menu i:hover {
+    color: #f94144;
+}
+.boton_menu:hover {
+    background-color: #036666;
+}
+a{
+    text-decoration: none;
+    color: #003459;
+}
+a:hover{
+    color: #f94144;
+}
+aside{
+    width: 15%;
+}

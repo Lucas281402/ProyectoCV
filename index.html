@@ -4,9 +4,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <script src="https://kit.fontawesome.com/f4697e14ad.js" crossorigin="anonymous"></script><!--Iconos de Fontawesome-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap" rel="stylesheet"><!--Fuente Principal-->
+  <link rel="icon" type="image/png" href="imagenes/imagenTitle3.png"><!--Icono de la Pestaña-->
+  <link rel="stylesheet" href="estilos.css">
+  <title>Hoja de Vida</title>
 </head>
 <body>
-  
+  <header class="contenedor">
+    <div>
+        <h1>Valentín Ramos</h1>
+        <h3>Programador Front-end</h3>
+        <p id="presentacion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed cursus metus. Sed eu tellus consectetur, placerat nisl at, rutrum tortor. Integer nulla tellus, porta sit amet nisl quis, dignissim gravida risus. Praesent non libero tristique, tristique tortor in, tempor odio. Integer sit amet ante at mauris lobortis tempus. In faucibus ut turpis ut luctus. Fusce ac consectetur dolor, non gravida mauris. Curabitur ultricies laoreet orci nec venenatis.</p>
+        
+        <button type="button" class="boton_menu" onclick="mostrar_navbar()">
+            <i class="fa-solid fa-sort-down"></i>
+        </button>
+        
+        <button type="button" class="boton_menu" onclick="ocultar_navbar()">
+            <i class="fa-solid fa-sort-up"></i>
+        </button>
+        
+        <nav>
+            <div id="mostrar">
+                <div class="nav_bar">
+                    <a href="#estudios">Estudios</a>
+                </div>
+                <div class="nav_bar">
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="nav_bar">
+                    <a href="#habilidades">Habilidades</a>
+                </div>
+                <div class="nav_bar">
+                    <a href="#idiomas">Idiomas</a>
+                </div>
+                <div class="nav_bar">
+                    <a href="#experiencia">Experiencia</a>
+                </div>
+                <div class="nav_bar" id="carta_presentacion">
+                    <a href="">Carta de Presentacion</a>
+                </div>
+                <button type="button" class="boton_menu" onclick="cambiar_fuente()" class="nav_bar">
+                    <i class="fa-solid fa-file-pen">fuente</i>
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="foto de perfil" class="foto_perfil" >
+    </div>
+  </header>
 </body>
 </html>
