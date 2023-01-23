@@ -67,3 +67,43 @@ a:hover{
 aside{
     width: 15%;
 }
+/*Estilos de Seccion*/
+.columna_derecha{
+    max-width: 25%;
+    min-width: 25%;
+    text-align: left;
+    float: right;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 25%;
+}
+.columna_izquierda{
+    float: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 25%;
+    min-width: 25%;
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+.sin_puntos{
+    list-style: none;
+    text-align: left;
+}
+i{
+    margin: 5px;
+    padding: 5px;
+    color: #1b4965;
+    font-size: 25px;
+}
+dd{
+    margin: 15px;
+    padding-left: 15px;
+    text-align: left;
+}
+dt{
+    text-decoration: underline #003459;
+    text-align: left;
+}
