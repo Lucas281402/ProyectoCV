@@ -107,3 +107,16 @@ dt{
     text-decoration: underline #003459;
     text-align: left;
 }
+/*Estilos del Footer*/
+footer{
+    text-align: center;
+}
+.footer_iconos li {
+    vertical-align: top;
+    display: inline;
+    padding-left: 10%;
+    margin-left: 5%;
+}
+hr{
+    width: 70%;
+}
